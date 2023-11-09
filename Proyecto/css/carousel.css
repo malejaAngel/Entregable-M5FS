@@ -44,13 +44,13 @@ body {
   justify-content: center;
 }
 .form-contacto {
-  background-image: url("/img/Foto_11.png");
+  background-image: url("/Proyecto/img/Foto_11.png");
 }
 .back-footer {
-  background-image: url("/img/Foto_12.png");
+  background-image: url("img/Foto_12.png");
 }
 .promociones {
-  background-image: url("/img/Descuentos.png");
+  background-image: url("img/Descuentos.png");
 }
 
 /* MARKETING CONTENT
