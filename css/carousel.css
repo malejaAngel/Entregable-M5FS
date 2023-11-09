@@ -1,0 +1,273 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 0;
+  color: #5a5a5a;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.Text-top {
+  top: 0;
+  text-align: center;
+  margin-top: 0%;
+}
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.gift
+{
+  align-content: center;
+  display:flex;
+  justify-content: center;
+}
+.form-contacto {
+  background-image: url("/img/Foto_11.png");
+}
+.back-footer {
+  background-image: url("/img/Foto_12.png");
+}
+.promociones {
+  background-image: url("/img/Descuentos.png");
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+
+.btn_banner{
+  color: #FFF;
+  background-color: #343A40;
+  padding: auto;
+  margin: 50px;
+}
+
+.Tex_sub {
+  text-align: center;
+  color: #4b514c;
+  margin: 24%;
+  font-size: 23px;
+  /*font-family: 'Bungee Shade', sans-serif;*/
+  
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Cedarville Cursive', cursive;*/
+}
+
+/*tabla*/
+.descuento{
+  width: 15%;
+  height: 12%;
+  float: left;
+  margin-right:6%;
+  margin-left:10%;
+  padding-left:10px;
+  margin-bottom: 2.5rem;
+  
+}
+.producto{
+  display: inline-block; 
+}
+.titulo{
+  color: #3ab84f;
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+}
+table,th,td
+{
+  
+  border-collapse: collapse;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-spacing: 2px;
+  font-size: 14px;
+}
+table
+{
+  width: 100%;
+}
+caption
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 0%;
+  margin: 20px;
+  padding-bottom: 1%;
+}
+th
+{
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 90%;
+}
+tr
+{
+   text-align: center;
+}
+tr:nth-child(even)
+{
+   background-color: #ffffff;
+}
+tr:nth-child(odd)
+{
+  background-color: rgb(254, 254, 254);
+}
+.textotabla{
+  padding: 2%;
+  text-align: justify;
+}
+img
+{
+    width: 200px;
+ }
+.nosotros
+{
+  width: 300px;
+  height: max-content;
+  flex:auto;
+  margin-top: 25%;
+  margin-left: 15%;
+  margin-right: 1%;
+}
+#div4{
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;   
+  padding-top: 6.5%;
+  padding-bottom: 4%;
+}
+.th2{
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  font-size: 15px;
+  width: 33%;
+  padding: 4px;
+}
+.proyecto:hover{
+ opacity: .8;
+ max-width: 60%;
+}
+.icono1{
+  width: 62px;
+  height: 62px;
+  padding: 3px;
+  opacity:0.8 ;
+}
+.icono{
+  width: 40px;
+  height: 40px;
+  padding: 3px;
+  opacity:0.8 ;
+}
+.icono3{
+  width: 45px;
+  height: 45px;
+  opacity:0.8 ;
+}
+.icono:hover{
+  opacity:0.3;
+}
+.icono3:hover{
+  opacity:0.3 ;
+}
+.icono1:hover{
+  opacity:0.3 ;
+}
+#diviconosf{
+  text-align: left;
+  padding: 2%;
+  position: absolute;
+}
+.mfooter{
+ padding-right: 30%;
+ padding-bottom: 0;
+}
+footer
+{
+  margin-top: 5%;
+ }
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  #div4{
+    width: 84%;  
+    padding-top: 0%;
+    padding-bottom: 1%;
+}
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
