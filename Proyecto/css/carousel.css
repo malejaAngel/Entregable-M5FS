@@ -221,15 +221,26 @@ img
   width: 45px;
   height: 45px;
   opacity:0.8 ;
+ 
 }
 .icono:hover{
-  opacity:0.3;
+  opacity:0.4 ;
+  margin-bottom: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
 }
+
 .icono3:hover{
-  opacity:0.3 ;
+  opacity:0.4 ;
+  margin-bottom: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
 }
+
 .icono1:hover{
-  opacity:0.3 ;
+  opacity:0.4 ;
 }
 #diviconosf{
   text-align: left;

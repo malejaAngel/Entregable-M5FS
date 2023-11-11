@@ -1,0 +1,23 @@
+form{
+    width: 80%;
+    margin: 10%;
+}
+h1{
+    text-align: center;
+}
+
+table,th,td
+{
+  border-collapse: collapse;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-spacing: 2px;
+  font-size: 14px;
+}
+table
+{
+  width: 90%;
+}
+.proyecto{
+    max-width: 60%;
+    margin-left: 35%;
+   }
